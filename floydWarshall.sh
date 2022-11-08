@@ -18,5 +18,6 @@ echo "----------------------------------------4 Cores---------------------------
 mpiexec -n 4 python3 -m mpi4py parallelizedFloydWarshall.py
 echo "---------------------------------------------------------------------------------------\n\n"
 
-# echo "6 Cores"
-# mpiexec -n 6 python3 -m mpi4py parallelizedFloydWarshall.py
+echo "----------------------------------------5 Cores----------------------------------------"
+mpiexec -n 5 python3 -m mpi4py parallelizedFloydWarshall.py
+echo "---------------------------------------------------------------------------------------\n\n"
